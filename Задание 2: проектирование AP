@@ -1,0 +1,35 @@
+1. REST API запрос
+GET /api/v1/partner-stores
+2. Пример ответа
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "METRO",
+      "logoUrl": "https://cdn.example.com/metro.png",
+      "deliveryInfo": "Ближайшая доставка сегодня 21:00-23:00",
+      "externalUrl": "https://online.metro-cc.ru"
+    },
+    {
+      "id": 2,
+      "name": "Ашан",
+      "logoUrl": "https://cdn.example.com/auchan.png",
+      "deliveryInfo": "Ближайшая доставка сегодня 18:00-20:00",
+      "externalUrl": "https://www.auchan.ru"
+    },
+    {
+      "id": 3,
+      "name": "ВкусВилл",
+      "logoUrl": "https://cdn.example.com/vkusvill.png",
+      "deliveryInfo": "Быстрая доставка от 20 до 60 минут",
+      "externalUrl": "https://vkusvill.ru"
+    },
+    {
+      "id": 4,
+      "name": "ВИКТОРИЯ",
+      "logoUrl": "https://cdn.example.com/victoria.png",
+      "deliveryInfo": "Ближайшая доставка сегодня 17:00-19:00",
+      "externalUrl": "https://victoria-group.ru"
+    }
+  ]
+}
